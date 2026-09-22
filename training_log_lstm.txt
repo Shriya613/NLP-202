@@ -1,0 +1,14 @@
+Batch Size=16, Learning Rate=0.001, Epochs=10, Train Time=720.33s, Valid Loss=0.5455, Valid Accuracy=0.8634
+Batch Size=16, Learning Rate=0.001, Epochs=20, Train Time=5071.27s, Valid Loss=0.7373, Valid Accuracy=0.8792
+Batch Size=16, Learning Rate=0.0001, Epochs=10, Train Time=610.76s, Valid Loss=0.3381, Valid Accuracy=0.8632
+Batch Size=16, Learning Rate=0.0001, Epochs=20, Train Time=1223.05s, Valid Loss=0.3746, Valid Accuracy=0.8440
+Batch Size=32, Learning Rate=0.001, Epochs=10, Train Time=322.28s, Valid Loss=0.5049, Valid Accuracy=0.7400
+Batch Size=32, Learning Rate=0.001, Epochs=20, Train Time=633.43s, Valid Loss=0.7390, Valid Accuracy=0.8810
+Batch Size=32, Learning Rate=0.0001, Epochs=10, Train Time=323.82s, Valid Loss=0.3655, Valid Accuracy=0.8504
+Batch Size=32, Learning Rate=0.0001, Epochs=20, Train Time=649.99s, Valid Loss=0.3635, Valid Accuracy=0.8734
+Batch Size=64, Learning Rate=0.001, Epochs=10, Train Time=1019.94s, Valid Loss=0.4035, Valid Accuracy=0.8454
+Batch Size=64, Learning Rate=0.001, Epochs=20, Train Time=389.52s, Valid Loss=0.7931, Valid Accuracy=0.8272
+Batch Size=64, Learning Rate=0.0001, Epochs=10, Train Time=190.43s, Valid Loss=0.3662, Valid Accuracy=0.8462
+Batch Size=64, Learning Rate=0.0001, Epochs=20, Train Time=381.18s, Valid Loss=0.3635, Valid Accuracy=0.8580
+Best Parameters: {'batch_size': 32, 'learning_rate': 0.001, 'epochs': 20}
+Test Loss: 0.7860, Test Accuracy: 0.8463

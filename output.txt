@@ -1,0 +1,119 @@
+Training model with basic features...
+Epoch 1 done, Dev F1: 0.6330
+Epoch 2 done, Dev F1: 0.6793
+Epoch 3 done, Dev F1: 0.7167
+Epoch 4 done, Dev F1: 0.6987
+Epoch 5 done, Dev F1: 0.6959
+Epoch 6 done, Dev F1: 0.7200
+Epoch 7 done, Dev F1: 0.7310
+Epoch 8 done, Dev F1: 0.7241
+Epoch 9 done, Dev F1: 0.6781
+Epoch 10 done, Dev F1: 0.7380
+Epoch 11 done, Dev F1: 0.6843
+Epoch 12 done, Dev F1: 0.7181
+Epoch 13 done, Dev F1: 0.7448
+Epoch 14 done, Dev F1: 0.6906
+Epoch 15 done, Dev F1: 0.6660
+Epoch 16 done, Dev F1: 0.6438
+Epoch 17 done, Dev F1: 0.6774
+Epoch 18 done, Dev F1: 0.7400
+Epoch 19 done, Dev F1: 0.7350
+Epoch 20 done, Dev F1: 0.7341
+
+Generating predictions...
+
+Dev Set Performance:
+              precision    recall  f1-score   support
+
+      B-MISC       0.00      0.00      0.00         4
+       I-LOC       0.15      0.84      0.25      2094
+      I-MISC       0.22      0.52      0.31      1264
+       I-ORG       0.35      0.44      0.39      2092
+       I-PER       0.34      0.32      0.33      3149
+           O       0.99      0.72      0.83     42974
+
+    accuracy                           0.68     51577
+   macro avg       0.34      0.47      0.35     51577
+weighted avg       0.87      0.68      0.74     51577
+
+
+Test Set Performance:
+              precision    recall  f1-score   support
+
+       B-LOC       0.00      0.00      0.00         6
+      B-MISC       0.00      0.00      0.00         9
+       B-ORG       0.00      0.00      0.00         5
+       I-LOC       0.14      0.82      0.25      1919
+      I-MISC       0.20      0.51      0.28       909
+       I-ORG       0.40      0.43      0.41      2491
+       I-PER       0.26      0.20      0.23      2773
+           O       0.99      0.73      0.84     38553
+
+    accuracy                           0.68     46665
+   macro avg       0.25      0.34      0.25     46665
+weighted avg       0.86      0.68      0.75     46665
+
+
+Generating CoNLL format output...
+Done!
+-------------
+
+Training model with advanced features...
+Epoch 1 done, Dev F1: 0.9600
+Epoch 2 done, Dev F1: 0.9676
+Epoch 3 done, Dev F1: 0.9688
+Epoch 4 done, Dev F1: 0.9662
+Epoch 5 done, Dev F1: 0.9712
+Epoch 6 done, Dev F1: 0.9704
+Epoch 7 done, Dev F1: 0.9692
+Epoch 8 done, Dev F1: 0.9697
+Epoch 9 done, Dev F1: 0.9722
+Epoch 10 done, Dev F1: 0.9734
+Epoch 11 done, Dev F1: 0.9715
+Epoch 12 done, Dev F1: 0.9727
+Epoch 13 done, Dev F1: 0.9744
+Epoch 14 done, Dev F1: 0.9732
+Epoch 15 done, Dev F1: 0.9726
+Epoch 16 done, Dev F1: 0.9716
+Epoch 17 done, Dev F1: 0.9745
+Epoch 18 done, Dev F1: 0.9748
+Epoch 19 done, Dev F1: 0.9706
+Epoch 20 done, Dev F1: 0.9734
+
+Generating predictions...
+
+Dev Set Performance:
+              precision    recall  f1-score   support
+
+       B-LOC       0.00      0.00      0.00         0
+      B-MISC       0.20      0.50      0.29         4
+       I-LOC       0.86      0.90      0.88      2094
+      I-MISC       0.93      0.78      0.85      1264
+       I-ORG       0.87      0.82      0.84      2092
+       I-PER       0.92      0.92      0.92      3149
+           O       0.99      1.00      0.99     42974
+
+    accuracy                           0.98     51577
+   macro avg       0.68      0.70      0.68     51577
+weighted avg       0.97      0.98      0.97     51577
+
+
+Test Set Performance:
+              precision    recall  f1-score   support
+
+       B-LOC       0.00      0.00      0.00         6
+      B-MISC       0.14      0.11      0.12         9
+       B-ORG       0.00      0.00      0.00         5
+       I-LOC       0.74      0.85      0.79      1919
+      I-MISC       0.81      0.74      0.77       909
+       I-ORG       0.77      0.74      0.75      2491
+       I-PER       0.86      0.86      0.86      2773
+           O       0.99      0.99      0.99     38553
+
+    accuracy                           0.95     46665
+   macro avg       0.54      0.54      0.54     46665
+weighted avg       0.96      0.95      0.95     46665
+
+
+Generating CoNLL format output...
+Done!
